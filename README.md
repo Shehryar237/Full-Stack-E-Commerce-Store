@@ -1,4 +1,4 @@
-Full Stack E-Commerce Store
+# Full Stack E-Commerce Store
 
 ![Node.js](https://img.shields.io/badge/Node.js-green?style=flat-square)
 ![Express](https://img.shields.io/badge/Express-grey?style=flat-square)
@@ -7,7 +7,7 @@ Full Stack E-Commerce Store
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-ShopNode is a full stack e-commerce web app built with Node.js, Express, React, and PostgreSQL. It supports guest and authenticated shopping, an admin product management panel, cart persistence, and paginated product browsing with category filtering.
+A full stack e-commerce web app built with Node.js, Express, React, and PostgreSQL. Supports guest and authenticated shopping, an admin product management panel, cart persistence, and paginated product browsing with category filtering.
 
 ---
 
@@ -76,8 +76,8 @@ ShopNode is a full stack e-commerce web app built with Node.js, Express, React, 
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/shopnode.git
-cd shopnode
+git clone https://github.com/yourusername/your-repo-name.git
+cd your-repo-name
 ```
 
 ### 2. Set Up the Database
@@ -166,7 +166,6 @@ http://localhost:5173
 * Product images are stored in `app/uploads/` and served as static files
 * Admin routes are protected by both `authMiddleware` and `adminMiddleware` — a user account with `role = 'admin'` in the database is required
 * Cart total price is always recalculated server-side from live product prices — the frontend total is treated as optimistic only
-* To seed the database with dummy products, see the SQL insert script in the notes below
 
 ### Seeding Dummy Products
 ```sql
