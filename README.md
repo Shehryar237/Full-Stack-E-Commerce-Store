@@ -1,4 +1,4 @@
-# ShopNode – Full Stack E-Commerce Store
+Full Stack E-Commerce Store
 
 ![Node.js](https://img.shields.io/badge/Node.js-green?style=flat-square)
 ![Express](https://img.shields.io/badge/Express-grey?style=flat-square)
