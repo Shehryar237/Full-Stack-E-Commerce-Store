@@ -16,7 +16,7 @@ A full stack e-commerce web app built with Node.js, Express, React, and PostgreS
 * Guest cart stored in localStorage, merged into DB on login
 * JWT authentication with role-based access (user / admin)
 * Product browsing with pagination and category filtering
-* Admin dashboard — add, edit, delete products with image upload
+* Admin dashboard. Add, edit, delete products with image upload
 * Cart — add, remove, update quantity, checkout flow
 * Persistent auth state via Zustand + localStorage
 
@@ -25,7 +25,7 @@ A full stack e-commerce web app built with Node.js, Express, React, and PostgreS
 ## How It Works
 
 * User browses products (paginated, filterable by category)
-* Guest users can add to cart — stored in localStorage
+* Guest users can add to cart (localStorage)
 * On login, guest cart is automatically merged with their DB cart
 * JWT token is issued on login and attached to all protected requests
 * Admins can manage products through a protected dashboard
