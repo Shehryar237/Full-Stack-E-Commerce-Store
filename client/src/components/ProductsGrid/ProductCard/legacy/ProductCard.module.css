@@ -1,0 +1,48 @@
+.card {
+    max-width: 370px;
+    border: 1px solid grey;
+}
+
+/* Reduce space between content and footer */
+.card :global(.p-card-content) {
+    padding-bottom: 0.5rem;
+}
+
+.card :global(.p-card-footer) {
+    margin-top: 0.25rem;
+    padding-top: 0.25rem;
+}
+
+.footer {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.detailsButton {
+    background-color: white;
+    color: rgb(93, 93, 93);
+    border: none;
+}
+.detailsButton:hover {
+    background-color: rgb(210, 207, 207);
+}
+
+.buyButton,
+.detailsButton {
+    font-size: 0.8rem;        /* smaller text */
+    padding: 4px 8px;         /* less padding = smaller button */
+    height: 40px;             /* optional: fixed height */
+    line-height: 1;           /* tighter spacing */
+}
+
+.productImage{
+    padding-top: 20px;
+    width: 100%;
+    height: 300px;
+     object-fit: contain;     /* shrink to fit, no cropping */
+    object-position: center; /* keep centered */
+    background-color: #f5f5f5; /* optional: filler background behind transparent/empty space */
+    border-radius: 8px;       /* optional: matches card corners */
+}

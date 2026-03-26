@@ -1,0 +1,54 @@
+/* NavBar.module.css */
+
+.header {
+  height: 60px;
+  margin-bottom: 20px;
+  background-color: black;
+  border-bottom: 1px solid var(--mantine-color-gray-3);
+  font-family: 'Raleway';
+  
+}
+
+.inner {
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.loginButton{
+  margin: 0px 5px 0px 5px;
+}
+
+.link {
+  display: block;
+  line-height: 1;
+  padding: 8px 12px;
+  border-radius: var(--mantine-radius-sm);
+  text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 500;
+  border-radius: 0PX;
+
+  /* underline setup + transition */
+  border-bottom: 1px solid transparent;
+  transition: border-bottom-color 600ms ease;
+}
+
+.link:hover {
+  /* only the underline fades in */
+  border-bottom-color: white;
+}
+
+.linkLabel {
+  margin-right: 5px;
+}
+
+.loginSection{
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

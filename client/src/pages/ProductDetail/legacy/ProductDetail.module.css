@@ -1,0 +1,21 @@
+.detailsButton{
+    background-color: white;
+    color: rgb(93, 93, 93);
+    border: none;
+    &:hover{
+        background-color: rgb(210, 207, 207);
+    }
+}
+
+.detailsFooter{
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    gap: 20px;
+}
+
+.detailsPriceTag{
+    font-size: 1.4rem;
+    color: rgb(60, 58, 58);
+}

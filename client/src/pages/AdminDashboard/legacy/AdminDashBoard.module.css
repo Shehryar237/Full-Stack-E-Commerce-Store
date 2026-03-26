@@ -1,0 +1,32 @@
+
+
+.section {
+  margin-top: 1.5rem;
+}
+
+.sectionHeader {
+  cursor: pointer;
+  background-color: #f9f9f9;
+  transition: background-color 0.2s;
+}
+
+.sectionHeader:hover {
+  background-color: #f0f0f0;
+}
+
+
+.statsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.statCard {
+  flex: 1 1 calc(33% - 1rem);
+}
+
+.manageContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}

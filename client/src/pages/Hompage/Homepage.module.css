@@ -1,0 +1,110 @@
+
+.container {
+  padding: 18px;
+
+}
+
+.hero {
+  margin-bottom: 28px;
+  display: flex;
+  justify-content: center;
+}
+
+.heroCard {
+  width: 100%;
+  max-width: 1100px;
+  height: 240px;
+  border-radius: 12px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  overflow: hidden;
+}
+
+.heroText {
+  background: linear-gradient(0deg, rgba(0,0,0,0.45), transparent);
+  color: #fff;
+  padding: 18px;
+  width: 100%;
+}
+
+.heroText h2 {
+  margin: 0 0 6px 0;
+  font-size: 1.5rem;
+}
+
+.heroText p {
+  margin: 0;
+  opacity: 0.95;
+}
+
+/* small pill buttons on hero */
+.heroControls {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  display: flex;
+  gap: 8px;
+}
+
+.pill {
+  width: 36px;
+  height: 36px;
+  border-radius: 999px;
+  border: none;
+  background: rgba(255,255,255,0.85);
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Category section */
+.categorySection {
+  margin-bottom: 28px;
+ 
+  max-width: 100%;
+}
+
+.categoryTitle {
+  margin: 0 0 12px 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+/* row that uses your existing product grid look.
+   The ProductCard is already sized by its styles; we wrap it to control spacing. */
+.row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding-bottom: 6px;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0px;
+}
+
+.cardWrapper {
+  min-width: 240px;
+  flex: 0 0 240px;
+  display: flex;
+}
+
+/* small responsive tweak */
+@media (max-width: 900px) {
+  .heroCard {
+    height: 180px;
+  }
+  .cardWrapper {
+    min-width: 200px;
+    flex: 0 0 200px;
+  }
+}
+
+

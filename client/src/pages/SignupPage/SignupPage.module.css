@@ -1,0 +1,122 @@
+/* src/pages/SignupPage/SignupPage.module.css */
+
+.signupContainer {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  background: #f5f7fa; /* light background */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Left Panel */
+.leftPanel {
+  flex: 1;
+  background: linear-gradient(135deg, #6a11cb, #2575fc); /* gradient for visual interest */
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+}
+
+.leftPanel h2 {
+  font-size: 2.2rem;
+  margin-bottom: 16px;
+}
+
+.leftPanel p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  opacity: 0.9;
+}
+
+.customLoginBtn {
+  background: #fff !important;
+  color: #2575fc !important;
+  font-weight: 600;
+  border: none !important;
+  border-radius: 8px !important;
+  padding: 10px 20px !important;
+  transition: all 0.3s ease;
+}
+
+.customLoginBtn:hover {
+  background: #f0f0f0 !important;
+  transform: translateY(-2px);
+}
+
+/* Right Panel */
+.rightPanel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  background: #fff;
+}
+
+.rightPanel h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Signup Form */
+.signupForm {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  background: #fafafa;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.p-field {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #444;
+}
+
+input {
+  width: 100%;
+}
+
+button {
+  width: 100%;
+  font-weight: 600;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .signupContainer {
+    flex-direction: column;
+  }
+
+  .leftPanel,
+  .rightPanel {
+    flex: unset;
+    width: 100%;
+    height: auto;
+  }
+
+  .signupForm {
+    max-width: 100%;
+    box-shadow: none;
+    background: transparent;
+    padding: 0;
+  }
+
+  .customLoginBtn {
+    width: 100%;
+  }
+}

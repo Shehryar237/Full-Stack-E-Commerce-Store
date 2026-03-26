@@ -1,0 +1,7 @@
+### Send Test Email
+POST http://localhost:5000/email/send-test-email
+Content-Type: application/json
+
+{
+    "email": "odirockstheworld@gmail.com"
+}

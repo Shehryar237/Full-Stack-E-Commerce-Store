@@ -1,0 +1,28 @@
+Anonymous Cart Logic
+READ CART
+1.read stored string for anon cart
+2.if no saved cart, return empty cart
+3.if there is, parse the string
+4.if cart products exist AND is array, then use it
+5.compute toal price client side
+6.return the cart
+
+addProduct
+1.check login state(zustand)
+2.if token found, read cart
+3.check if prod id exits, if so increment qty instead of adding new prod
+4.if not, then create new entry in cart {id, price , qty}
+5.recalc total price (make it separate func later)
+
+fetchCart
+1.if token found, read from DB, if guest read from local storage
+
+updateCart
+1.for guest update local cart directly
+2.for loggen in, backend call at cart/updateCart
+
+
+mergeLocalCart
+1.Called immediately after login success.
+2.Takes local guest cart and merges it into user server cart.
+3.Deletes local storage only if merge succeeds.

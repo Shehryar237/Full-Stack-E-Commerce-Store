@@ -1,0 +1,198 @@
+.cartPage {
+    padding: 2rem 2.5rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .cartPage { padding: 1.25rem; }
+}
+
+.headerRow {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 1.75rem;
+}
+
+.pageTitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #111;
+    margin: 0;
+}
+
+.itemCount {
+    font-size: 0.82rem;
+    color: #9ca3af;
+    font-weight: 500;
+}
+
+.emptyState {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0;
+    gap: 12px;
+    color: #9ca3af;
+}
+
+.emptyState i {
+    font-size: 3rem;
+}
+
+.emptyState p {
+    margin: 0;
+    font-size: 0.95rem;
+}
+
+.cartPanel {
+    background: #969595;
+    border: 1px solid #ebebeb;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+/* override datatable to match app style */
+.cartPanel :global(.p-datatable .p-datatable-thead > tr > th) {
+    background: #e1e2e4;
+    border-bottom: 1px solid #ebebeb;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #6b7280;
+    padding: 12px 16px;
+}
+
+.cartPanel :global(.p-datatable .p-datatable-tbody > tr > td) {
+    padding: 14px 16px;
+    background: #e1e2e4;
+    
+    border-bottom: 1px solid #f3f4f6;
+    font-size: 0.88rem;
+    color: #374151;
+    vertical-align: middle;
+}
+
+.cartPanel :global(.p-datatable .p-datatable-tbody > tr:last-child > td) {
+    border-bottom: none;
+     background: #e1e2e4
+}
+
+.cartPanel :global(.p-datatable .p-datatable-tbody > tr:hover > td) {
+
+  background: #e1e2e4;
+}
+
+.productTitle {
+    font-weight: 600;
+    color: #111;
+    font-size: 0.9rem;
+}
+.qtyControls {
+    display: inline-flex;
+    align-items: center;
+    gap: 2px;
+    background: #e1e2e4;
+    border-radius: 8px;
+    padding: 2px 4px;
+}
+
+.qtyBtn {
+    width: 28px !important;
+    height: 28px !important;
+    border-radius: 6px !important;
+    color: #374151 !important;
+}
+
+.qtyBtn:hover {
+    background: #e5e7eb !important;
+}
+
+.qtyValue {
+    min-width: 28px;
+    text-align: center;
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: #111;
+}
+
+.removeBtn {
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 7px !important;
+    margin-left: 8px !important;
+    color: #ef4444 !important;
+}
+
+.removeBtn:hover {
+    background: #fee2e2 !important;
+}
+
+.priceCell {
+    font-weight: 600;
+    color: #1d4ed8;
+    font-size: 0.9rem;
+}
+
+.tableFooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 20px;
+    border-top: 1px solid #f0f0f0;
+    background: #fafafa;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.totalBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.totalLabel {
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    color: #9ca3af;
+}
+
+.totalValue {
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: #111;
+    letter-spacing: -0.02em;
+}
+
+.footerActions {
+    display: flex;
+    gap: 8px;
+}
+
+.checkoutBtn {
+    height: 40px !important;
+    font-size: 0.85rem !important;
+    border-radius: 9px !important;
+    padding: 0 20px !important;
+}
+
+.clearBtn {
+    height: 40px !important;
+    font-size: 0.85rem !important;
+    border-radius: 9px !important;
+    padding: 0 16px !important;
+    background: #fff !important;
+    color: #ef4444 !important;
+    border: 1px solid #fecaca !important;
+}
+
+.clearBtn:hover {
+    background: #fee2e2 !important;
+    border-color: #ef4444 !important;
+}

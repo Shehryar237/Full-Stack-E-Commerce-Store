@@ -1,0 +1,35 @@
+{
+  "products": [
+    {
+      "id": "0f1e2d3c-4b5a-6f7e-8d9c-0b1a2c3d4e5f",
+      "qty": 1,
+      "title": "Gaming Console Z",
+      "price": 499.99
+    },
+    {
+      "id": "123e4567-e89b-12d3-a456-426614174000",
+      "qty": 1,
+      "title": "Fitness Tracker Watch",
+      "price": 129.99
+    },
+    {
+      "id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+      "qty": 1,
+      "title": "Wireless Earbuds",
+      "price": 49.99
+    },
+    {
+      "id": "9a3b12d4-6ef7-4a2b-9cde-1f2a3b4c5d6e",
+      "qty": 1,
+      "title": "Smartphone X200",
+      "price": 699.99
+    },
+    {
+      "id": "2c4d6e8f-0a1b-2c3d-4e5f-6a7b8c9d0e1f",
+      "qty": 1,
+      "title": "Laptop Pro 15\"",
+      "price": 1499.99
+    }
+  ],
+  "totalPrice": 2879.95
+}

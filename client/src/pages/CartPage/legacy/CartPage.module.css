@@ -1,0 +1,44 @@
+.cartPage{
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+}
+
+.cartPanel{
+    background-color: rgb(170, 213, 198);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    min-height: 200px;
+}
+
+.checkoutBtn{
+    margin-top: 20px;
+    width: 150px;
+    font-size: 0.9rem;
+}
+
+.clearBtn{
+    background-color: red;
+    margin-top: 20px;
+    width: 150px;
+    border: red;
+    font-size: 0.9rem;
+}
+
+.qtyControls {
+  display: inline-flex;
+  align-items: center;
+}
+
+.qtyValue {
+  margin: 0 0.5rem;
+  min-width: 2ch;
+  text-align: center;
+}
+
+.tableFooter{
+  display: flex;
+  justify-content: space-between;
+}

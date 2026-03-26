@@ -1,0 +1,130 @@
+.wrapper {
+  padding: 2rem 0;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.heroTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.brand {
+  color: var(--mantine-color-blue-6);
+}
+
+.heroSubtitle {
+  font-size: 1.25rem;
+  color: var(--mantine-color-gray-6);
+  margin-top: 0.5rem;
+}
+
+.sectionTitle {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.sectionText {
+  color: var(--mantine-color-gray-6);
+  margin: 1rem 0;
+  line-height: 1.6;
+}
+
+.ctaButton {
+  margin-top: 1rem;
+}   
+
+.logoImage{
+  border-radius: 0.5rem;
+ 
+  img { max-width: 500px; height: auto; padding-top: 40px; }
+}
+
+/* team section*/
+.team {
+    margin: 3rem 0;
+    background-color: lightblue;
+    margin: 3rem 0;
+    background-color: lightblue;
+    padding: 3rem 0;
+
+  /* to stretch background beyond container */
+    margin-left: -9999px;
+    margin-right: -9999px;
+    padding-left: 9999px;
+    padding-right: 9999px;
+}
+
+.sectionHeading {
+    text-align: center;
+    padding-bottom: 1rem;
+    color: rgb(3, 3, 94);
+}
+
+.teamCard {
+    text-align: center;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+.teamImage {
+    height: auto;
+    img { max-width: 150px; height: auto; }
+}
+
+.teamMemberInfo {
+display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 1rem;
+ 
+}
+
+.teamName {
+    justify-content: center;
+}
+
+.teamRole {
+  color: var(--mantine-color-gray-6);
+  font-size: 0.95rem;
+}
+
+/* Values Section */
+.values {
+  margin: 3rem 0;
+}
+
+.valueCard {
+  padding: 1.5rem;
+  text-align: center;
+  border-radius: 0.5rem;
+  transition: transform 0.2s ease;
+}
+
+.valueCard:hover {
+  transform: translateY(-5px);
+}
+
+.valueIcon {
+  font-size: 2rem;
+  color: var(--mantine-color-blue-6);
+  margin-bottom: 0.5rem;
+}
+
+.valueTitle {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.valueText {
+  font-size: 0.95rem;
+  color: var(--mantine-color-gray-6);
+}
