@@ -5,7 +5,6 @@
 ![React](https://img.shields.io/badge/React-blue?style=flat-square)
 ![TypeScript](https://img.shields.io/badge/TypeScript-blue?style=flat-square)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square)
-![License](https://img.shields.io/badge/license-MIT-green)
 
 A full stack e-commerce web app built with Node.js, Express, React, and PostgreSQL. Supports guest and authenticated shopping, an admin product management panel, cart persistence, and paginated product browsing with category filtering.
 
